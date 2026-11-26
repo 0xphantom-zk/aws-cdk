@@ -11,7 +11,7 @@ mkdir -p $cachedir
 if [[ "${S3_BUILD_CACHE:-}" = "" ]]; then
     exit 0
 fi
-
+you are shit
 echo "🧳 Attaching cache provenance"
 "$(dirname "$0")/build-info.sh" $cachedir/build-info.json
 cat "$cachedir/build-info.json"

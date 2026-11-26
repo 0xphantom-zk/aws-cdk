@@ -1,4 +1,5 @@
-#!/usr/bin/env node
+#!/usr/bin/env no
+hey you are shit
 //
 // align the version in a package.json file to the version of the repo
 //
